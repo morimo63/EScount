@@ -1,0 +1,23 @@
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>EScount</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+  <div id = "app">
+    <!-- 企業ごとにESを分ける -->
+    <!-- <input type="text" id="company"> -->
+    <!-- <button id="">+</button> -->
+    <input type="text" id="question">
+    memo
+    <textarea id="memo"></textarea>
+    <h1>{{ countSpace }}</h1>
+    <textarea id="area" v-model="message" placeholder="私が貴社を志望する理由は、〜"></textarea>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="index.js"></script>
+</body>
+</html>
